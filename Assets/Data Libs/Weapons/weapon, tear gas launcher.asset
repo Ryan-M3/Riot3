@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ce98c5de2aee341b4a941ff5c93419, type: 3}
+  m_Name: weapon, tear gas launcher
+  m_EditorClassIdentifier: 
+  itemID: -746096
+  itemName: Tear Gas
+  meshPreset: {fileID: 11400000, guid: dc20de37e09622e44ac49ede69869ba8, type: 2}
+  probabilityToBeEquippedRandomly: 0
+  semanticGroupCandidates: []
+  price: 5
+  ap_cost: 2
+  range: 50
+  initAmmo: 2
+  requiresUnitTarget: 0
+  needsSight: 0
+  dmgTbl:
+    hp: 0
+    ap: 1
+    dp: 0
+    fear: 0
+    anger: 0
+  vfx: {fileID: 0}
+  projectilePrefab: {fileID: 1058265133803274, guid: 44bddca82c3c85547810403c1f1bb45e,
+    type: 2}
+  angle: 45
+  speed: 1.5

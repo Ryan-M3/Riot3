@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b816cac1ec893ed4a9d8d5098850e50b, type: 3}
+  m_Name: HQ UnitLib
+  m_EditorClassIdentifier: 
+  defaults:
+  - prefab: {fileID: 1888257618647342, guid: 6e85a5ce9bfd11e4aafaea30c2847d55, type: 2}
+    unitType: 0
+  - prefab: {fileID: 1198135996710778, guid: aabb8cf3d81b54c42aab819beca87acf, type: 2}
+    unitType: 1
+  - prefab: {fileID: 1888257618647342, guid: 6e85a5ce9bfd11e4aafaea30c2847d55, type: 2}
+    unitType: 2
+  - prefab: {fileID: 1595779662444802, guid: 7d641ceb88038384b836637d19340795, type: 2}
+    unitType: 3
+  - prefab: {fileID: 1175564585819212, guid: 267e939d61f7a1b43a620fcdf473ee1f, type: 2}
+    unitType: 4

@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: 4902da9b4b2f4574aaa1dc936787d28c
+timeCreated: 1531193904
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: armCtrl.L
+    100002: armCtrl.L_end
+    100004: armCtrl.R
+    100006: armCtrl.R_end
+    100008: armTarget.L
+    100010: armTarget.L_end
+    100012: armTarget.R
+    100014: armTarget.R_end
+    100016: boob.L
+    100018: boob.L_end
+    100020: boob.R
+    100022: boob.R_end
+    100024: chest
+    100026: clavicle.L
+    100028: clavicle.R
+    100030: Cube
+    100032: finger.R
+    100034: finger.R_end
+    100036: fingers.L
+    100038: fingers.L_end
+    100040: foot.L
+    100042: foot.R
+    100044: fore.L.001
+    100046: fore.L.002
+    100048: fore.R
+    100050: fore.R.001
+    100052: fore.R.002
+    100054: fore.R.003
+    100056: fore.R.004
+    100058: fore.R.004_end
+    100060: forearm.L
+    100062: forearm.R
+    100064: head
+    100066: head.002
+    100068: head_end
+    100070: heel.L
+    100072: heel.L_end
+    100074: heel.R
+    100076: hind.L
+    100078: hind.L.001
+    100080: hind.L.002
+    100082: hind.L.003
+    100084: hind.L.004
+    100086: hind.L.004_end
+    100088: hind.L.Ctrl
+    100090: hind.L.Ctrl_end
+    100092: hind.L.foot.Tgt
+    100094: hind.L.foot.Tgt_end
+    100096: hind.L.Leg.Tgt
+    100098: hind.L.Leg.Tgt_end
+    100100: hind.R
+    100102: hind.R.001
+    100104: hind.R.003
+    100106: hind.r.004
+    100108: hind.r.004_end
+    100110: hind.R.Ctrl
+    100112: hind.R.Ctrl_end
+    100114: hind.R.foot.Tgt
+    100116: hind.R.foot.Tgt_end
+    100118: hind.R.Leg.Tgt
+    100120: hind.R.Leg.Tgt_end
+    100122: hinr.R.002
+    100124: hips
+    100126: horse hips
+    100128: horse hips.009
+    100130: horse hips.010
+    100132: horse hips.011
+    100134: horse hips.011_end
+    100136: Human
+    100138: legCtrl.L
+    100140: legCtrl.L_end
+    100142: legCtrl.R
+    100144: legCtrl.R_end
+    100146: legPoleTgt.L
+    100148: legPoleTgt.L_end
+    100150: legPoleTgt.R
+    100152: legPoleTgt.R_end
+    100154: lower spine
+    100156: //RootNode
+    100158: mouth
+    100160: mouth_end
+    100162: neck
+    100164: neck.001
+    100166: neck.002
+    100168: neck.003
+    100170: neck.003_end
+    100172: palm.L
+    100174: palm.R
+    100176: shin.L
+    100178: shin.R
+    100180: spine
+    100182: tail.001
+    100184: tail.002
+    100186: tail.003
+    100188: tail.004
+    100190: tail.004_end
+    100192: thigh.L
+    100194: thigh.R
+    100196: thumb.L
+    100198: thumb.L_end
+    100200: toe.L
+    100202: toe.L_end
+    100204: toe.R
+    100206: toe.R_end
+    100208: tumb.R
+    100210: tumb.R_end
+    100212: upper spine
+    100214: upper_arm.L
+    100216: upper_arm.R
+    100218: Weapon
+    100220: Weapon_end
+    100222: Shirt
+    100224: bottom
+    100226: Gun
+    100228: Head
+    100230: head 1
+    100232: shoes
+    100234: top
+    400000: armCtrl.L
+    400002: armCtrl.L_end
+    400004: armCtrl.R
+    400006: armCtrl.R_end
+    400008: armTarget.L
+    400010: armTarget.L_end
+    400012: armTarget.R
+    400014: armTarget.R_end
+    400016: boob.L
+    400018: boob.L_end
+    400020: boob.R
+    400022: boob.R_end
+    400024: chest
+    400026: clavicle.L
+    400028: clavicle.R
+    400030: Cube
+    400032: finger.R
+    400034: finger.R_end
+    400036: fingers.L
+    400038: fingers.L_end
+    400040: foot.L
+    400042: foot.R
+    400044: fore.L.001
+    400046: fore.L.002
+    400048: fore.R
+    400050: fore.R.001
+    400052: fore.R.002
+    400054: fore.R.003
+    400056: fore.R.004
+    400058: fore.R.004_end
+    400060: forearm.L
+    400062: forearm.R
+    400064: head
+    400066: head.002
+    400068: head_end
+    400070: heel.L
+    400072: heel.L_end
+    400074: heel.R
+    400076: hind.L
+    400078: hind.L.001
+    400080: hind.L.002
+    400082: hind.L.003
+    400084: hind.L.004
+    400086: hind.L.004_end
+    400088: hind.L.Ctrl
+    400090: hind.L.Ctrl_end
+    400092: hind.L.foot.Tgt
+    400094: hind.L.foot.Tgt_end
+    400096: hind.L.Leg.Tgt
+    400098: hind.L.Leg.Tgt_end
+    400100: hind.R
+    400102: hind.R.001
+    400104: hind.R.003
+    400106: hind.r.004
+    400108: hind.r.004_end
+    400110: hind.R.Ctrl
+    400112: hind.R.Ctrl_end
+    400114: hind.R.foot.Tgt
+    400116: hind.R.foot.Tgt_end
+    400118: hind.R.Leg.Tgt
+    400120: hind.R.Leg.Tgt_end
+    400122: hinr.R.002
+    400124: hips
+    400126: horse hips
+    400128: horse hips.009
+    400130: horse hips.010
+    400132: horse hips.011
+    400134: horse hips.011_end
+    400136: Human
+    400138: legCtrl.L
+    400140: legCtrl.L_end
+    400142: legCtrl.R
+    400144: legCtrl.R_end
+    400146: legPoleTgt.L
+    400148: legPoleTgt.L_end
+    400150: legPoleTgt.R
+    400152: legPoleTgt.R_end
+    400154: lower spine
+    400156: //RootNode
+    400158: mouth
+    400160: mouth_end
+    400162: neck
+    400164: neck.001
+    400166: neck.002
+    400168: neck.003
+    400170: neck.003_end
+    400172: palm.L
+    400174: palm.R
+    400176: shin.L
+    400178: shin.R
+    400180: spine
+    400182: tail.001
+    400184: tail.002
+    400186: tail.003
+    400188: tail.004
+    400190: tail.004_end
+    400192: thigh.L
+    400194: thigh.R
+    400196: thumb.L
+    400198: thumb.L_end
+    400200: toe.L
+    400202: toe.L_end
+    400204: toe.R
+    400206: toe.R_end
+    400208: tumb.R
+    400210: tumb.R_end
+    400212: upper spine
+    400214: upper_arm.L
+    400216: upper_arm.R
+    400218: Weapon
+    400220: Weapon_end
+    400222: Shirt
+    400224: bottom
+    400226: Gun
+    400228: Head
+    400230: head 1
+    400232: shoes
+    400234: top
+    2300000: bottom
+    2300002: Gun
+    2300004: Head
+    2300006: head
+    2300008: shoes
+    2300010: top
+    3300000: bottom
+    3300002: Gun
+    3300004: Head
+    3300006: head
+    3300008: shoes
+    3300010: top
+    4300000: Cube
+    4300002: Shirt
+    4300004: head
+    4300006: top
+    4300008: bottom
+    4300010: shoes
+    4300012: Gun
+    4300014: Head
+    7400000: mounted unit walk
+    7400002: Human|walk.001
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Shirt
+    13700004: bottom
+    13700006: head
+    13700008: shoes
+    13700010: top
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mounted unit walk
+      takeName: Human|HumanAction
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: hips
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

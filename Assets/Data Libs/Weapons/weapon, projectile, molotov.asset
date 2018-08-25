@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ce98c5de2aee341b4a941ff5c93419, type: 3}
+  m_Name: weapon, projectile, molotov
+  m_EditorClassIdentifier: 
+  itemID: 14480
+  itemName: molotov
+  meshPreset: {fileID: 11400000, guid: 1deaaa51307a9dc4f8a7a73b08b32a5b, type: 2}
+  probabilityToBeEquippedRandomly: 0
+  semanticGroupCandidates: []
+  price: 0
+  ap_cost: 1
+  range: Infinity
+  initAmmo: Infinity
+  requiresUnitTarget: 0
+  needsSight: 0
+  dmgTbl:
+    hp: 2
+    ap: 1
+    dp: 0
+    fear: 0
+    anger: 0
+  vfx: {fileID: 0}
+  projectilePrefab: {fileID: 1581617046251930, guid: c457a85eb570dd34eb6aadc6d0b01230,
+    type: 2}
+  angle: 45
+  speed: 2

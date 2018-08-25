@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: f1717ff3ae9875e4a8f708438bb25a9e
+timeCreated: 1529298854
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: armCtrl.L
+    100004: armCtrl.L_end
+    100006: armCtrl.R
+    100008: armCtrl.R_end
+    100010: armTarget.L
+    100012: armTarget.L_end
+    100014: armTarget.R
+    100016: armTarget.R_end
+    100018: boob.L
+    100020: boob.L_end
+    100022: boob.R
+    100024: boob.R_end
+    100026: chest
+    100028: clavicle.L
+    100030: clavicle.R
+    100032: finger.R
+    100034: finger.R_end
+    100036: fingers.L
+    100038: fingers.L_end
+    100040: foot.L
+    100042: foot.R
+    100044: forearm.L
+    100046: forearm.R
+    100048: head
+    100050: head_end
+    100052: heel.L
+    100054: heel.L_end
+    100056: heel.R
+    100058: hips
+    100060: Left Shoe
+    100062: Left Shoe.003
+    100064: Left Shoe.004
+    100066: legCtrl.L
+    100068: legCtrl.L_end
+    100070: legCtrl.R
+    100072: legCtrl.R_end
+    100074: legPoleTgt.L
+    100076: legPoleTgt.L_end
+    100078: legPoleTgt.R
+    100080: legPoleTgt.R_end
+    100082: neck
+    100084: palm.L
+    100086: palm.R
+    100088: pepper spray
+    100090: Rig
+    100092: shin.L
+    100094: shin.R
+    100096: spine
+    100098: taser
+    100100: thigh.L
+    100102: thigh.R
+    100104: thumb.L
+    100106: thumb.L_end
+    100108: toe.L
+    100110: toe.L_end
+    100112: toe.R
+    100114: toe.R_end
+    100116: tumb.R
+    100118: tumb.R_end
+    100120: Untitled
+    100122: upper_arm.L
+    100124: upper_arm.R
+    100126: Weapon
+    100128: Weapon_end
+    100130: boots
+    100132: handL
+    100134: handR
+    100136: head 1
+    100138: pants
+    100140: top
+    400000: //RootNode
+    400002: armCtrl.L
+    400004: armCtrl.L_end
+    400006: armCtrl.R
+    400008: armCtrl.R_end
+    400010: armTarget.L
+    400012: armTarget.L_end
+    400014: armTarget.R
+    400016: armTarget.R_end
+    400018: boob.L
+    400020: boob.L_end
+    400022: boob.R
+    400024: boob.R_end
+    400026: chest
+    400028: clavicle.L
+    400030: clavicle.R
+    400032: finger.R
+    400034: finger.R_end
+    400036: fingers.L
+    400038: fingers.L_end
+    400040: foot.L
+    400042: foot.R
+    400044: forearm.L
+    400046: forearm.R
+    400048: head
+    400050: head_end
+    400052: heel.L
+    400054: heel.L_end
+    400056: heel.R
+    400058: hips
+    400060: Left Shoe
+    400062: Left Shoe.003
+    400064: Left Shoe.004
+    400066: legCtrl.L
+    400068: legCtrl.L_end
+    400070: legCtrl.R
+    400072: legCtrl.R_end
+    400074: legPoleTgt.L
+    400076: legPoleTgt.L_end
+    400078: legPoleTgt.R
+    400080: legPoleTgt.R_end
+    400082: neck
+    400084: palm.L
+    400086: palm.R
+    400088: pepper spray
+    400090: Rig
+    400092: shin.L
+    400094: shin.R
+    400096: spine
+    400098: taser
+    400100: thigh.L
+    400102: thigh.R
+    400104: thumb.L
+    400106: thumb.L_end
+    400108: toe.L
+    400110: toe.L_end
+    400112: toe.R
+    400114: toe.R_end
+    400116: tumb.R
+    400118: tumb.R_end
+    400120: Untitled
+    400122: upper_arm.L
+    400124: upper_arm.R
+    400126: Weapon
+    400128: Weapon_end
+    400130: boots
+    400132: handL
+    400134: handR
+    400136: head 1
+    400138: pants
+    400140: top
+    4300000: pepper spray
+    4300002: taser
+    4300004: Left Shoe
+    4300006: Left Shoe.003
+    4300008: Left Shoe.004
+    4300010: Untitled
+    4300012: handL
+    4300014: handR
+    4300016: head
+    4300018: pants
+    4300020: boots
+    4300022: top
+    7400000: useSemiAuto.002
+    7400002: Rig|dropkick
+    7400004: Rig|dukesUp
+    7400006: Rig|fall down
+    7400008: Rig|get electrocuted
+    7400010: Rig|idle
+    7400012: Rig|jump
+    7400014: Rig|jump slash
+    7400016: Rig|pepper spray
+    7400018: Rig|PoseLib
+    7400020: Rig|punch
+    7400022: Rig|Rig.001|Rig|dropkick|Rig|dropkick
+    7400024: Rig|Rig.001|Rig|dukesUp|Rig|dukesUp
+    7400026: Rig|Rig.001|Rig|idle|Rig|idle
+    7400028: Rig|Rig.001|Rig|jump slash|Rig|jump slash
+    7400030: Rig|Rig.001|Rig|jump|Rig|jump
+    7400032: Rig|Rig.001|Rig|PoseLib|Rig|PoseLib
+    7400034: Rig|Rig.001|Rig|punch|Rig|punch
+    7400036: Rig|Rig.001|Rig|sword stab|Rig|sword stab
+    7400038: Rig|Rig.001|Rig|swordC|Rig|swordC
+    7400040: Rig|Rig.001|Rig|swordDown.001|Rig|swordDown.001
+    7400042: Rig|Rig.001|Rig|swordRetry|Rig|swordRetry
+    7400044: Rig|Rig.001|Rig|swordThrust.001|Rig|swordThrust.001
+    7400046: Rig|Rig.001|Rig|swordThrust.002|Rig|swordThrust.002
+    7400048: Rig|Rig.001|Rig|swordThrust.004|Rig|swordThrust.004
+    7400050: Rig|Rig.001|Rig|swordThrust|Rig|swordThrust
+    7400052: Rig|Rig.001|Rig|useSledgeHammer|Rig|useSledgeHammer
+    7400054: Rig|Rig.001|Rig|useSwordB|Rig|useSwordB
+    7400056: Rig|Rig.001|Rig|useSwordD|Rig|useSwordD
+    7400058: Rig|Rig.001|Rig|useSword|Rig|useSword
+    7400060: Rig|Rig.001|Rig|walk.001|Rig|walk.001
+    7400062: Rig|Rig.001|Rig|walk.002|Rig|walk.002
+    7400064: Rig|Rig.001|Rig|walk.003|Rig|walk.003
+    7400066: Rig|Rig.001|Rig|walk.004|Rig|walk.004
+    7400068: Rig|Rig.001|Rig|walk|Rig|walk
+    7400070: Rig|Rig.001|useSemiAuto.002|useSemiAuto.002
+    7400072: Rig|stand with shield
+    7400074: Rig|sword stab
+    7400076: Rig|swordC
+    7400078: Rig|swordDown.001
+    7400080: Rig|swordRetry
+    7400082: Rig|swordThrust
+    7400084: Rig|swordThrust.001
+    7400086: Rig|swordThrust.002
+    7400088: Rig|swordThrust.004
+    7400090: Rig|tase
+    7400092: Rig|useSledgeHammer
+    7400094: Rig|useSword
+    7400096: Rig|useSwordB
+    7400098: Rig|useSwordD
+    7400100: Rig|useTearGas
+    7400102: Rig|walk
+    7400104: Rig|walk.001
+    7400106: Rig|walk.002
+    7400108: Rig|walk.003
+    7400110: Rig|walk.004
+    7400112: Rig|walk.005
+    7400114: throwBrick
+    9500000: //RootNode
+    13700000: Left Shoe
+    13700002: Left Shoe.003
+    13700004: Left Shoe.004
+    13700006: pepper spray
+    13700008: taser
+    13700010: Untitled
+    13700012: boots
+    13700014: handL
+    13700016: handR
+    13700018: head
+    13700020: pants
+    13700022: top
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: cdc7de6bcc27c4142bf66eab2954a1e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: f400ca4876e8a78448d02d93f4377205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.022
+    second: {fileID: 2100000, guid: 985f5f4269f00234f8534aa73e089e65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: a626b7a97a0a9ed458803a1e893ce623, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: belt
+    second: {fileID: 2100000, guid: 0e80c2a3382b8e042b0292386ff37bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: electrodes
+    second: {fileID: 2100000, guid: 98094d3b7321dcb4991681d83079f1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hoodie
+    second: {fileID: 2100000, guid: 05cfbe803bf8f98468cbe9b854878f66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shirt.004
+    second: {fileID: 2100000, guid: 4aa7c88ec12fdf440a4f80fa90053dec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoe
+    second: {fileID: 2100000, guid: 33458106177486246a4a9ff9eba44e51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin.001
+    second: {fileID: 2100000, guid: 163068528a956374282a0a17fb798d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tip
+    second: {fileID: 2100000, guid: a62789fff423c4b419d3017a450f7f23, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: throwBrick
+      takeName: Rig|throwBrick
+      firstFrame: 0
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

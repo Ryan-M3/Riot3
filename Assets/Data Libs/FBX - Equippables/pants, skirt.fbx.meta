@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: f1914a2c3ea8b624ab1f9e322b410d26
+timeCreated: 1531377528
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: armCtrl.L
+    100002: armCtrl.L_end
+    100004: armCtrl.R
+    100006: armCtrl.R_end
+    100008: armTarget.L
+    100010: armTarget.L_end
+    100012: armTarget.R
+    100014: armTarget.R_end
+    100016: boob.L
+    100018: boob.L_end
+    100020: boob.R
+    100022: boob.R_end
+    100024: Bottom
+    100026: chest
+    100028: clavicle.L
+    100030: clavicle.R
+    100032: finger.R
+    100034: finger.R_end
+    100036: fingers.L
+    100038: fingers.L_end
+    100040: foot.L
+    100042: foot.R
+    100044: forearm.L
+    100046: forearm.R
+    100048: head
+    100050: head_end
+    100052: heel.L
+    100054: heel.L_end
+    100056: heel.R
+    100058: hips
+    100060: legCtrl.L
+    100062: legCtrl.L_end
+    100064: legCtrl.R
+    100066: legCtrl.R_end
+    100068: legPoleTgt.L
+    100070: legPoleTgt.L_end
+    100072: legPoleTgt.R
+    100074: legPoleTgt.R_end
+    100076: neck
+    100078: palm.L
+    100080: palm.R
+    100082: //RootNode
+    100084: Rig
+    100086: shin.L
+    100088: shin.R
+    100090: spine
+    100092: thigh.L
+    100094: thigh.R
+    100096: thumb.L
+    100098: thumb.L_end
+    100100: toe.L
+    100102: toe.L_end
+    100104: toe.R
+    100106: toe.R_end
+    100108: tumb.R
+    100110: tumb.R_end
+    100112: upper_arm.L
+    100114: upper_arm.R
+    100116: Weapon
+    100118: Weapon_end
+    400000: armCtrl.L
+    400002: armCtrl.L_end
+    400004: armCtrl.R
+    400006: armCtrl.R_end
+    400008: armTarget.L
+    400010: armTarget.L_end
+    400012: armTarget.R
+    400014: armTarget.R_end
+    400016: boob.L
+    400018: boob.L_end
+    400020: boob.R
+    400022: boob.R_end
+    400024: Bottom
+    400026: chest
+    400028: clavicle.L
+    400030: clavicle.R
+    400032: finger.R
+    400034: finger.R_end
+    400036: fingers.L
+    400038: fingers.L_end
+    400040: foot.L
+    400042: foot.R
+    400044: forearm.L
+    400046: forearm.R
+    400048: head
+    400050: head_end
+    400052: heel.L
+    400054: heel.L_end
+    400056: heel.R
+    400058: hips
+    400060: legCtrl.L
+    400062: legCtrl.L_end
+    400064: legCtrl.R
+    400066: legCtrl.R_end
+    400068: legPoleTgt.L
+    400070: legPoleTgt.L_end
+    400072: legPoleTgt.R
+    400074: legPoleTgt.R_end
+    400076: neck
+    400078: palm.L
+    400080: palm.R
+    400082: //RootNode
+    400084: Rig
+    400086: shin.L
+    400088: shin.R
+    400090: spine
+    400092: thigh.L
+    400094: thigh.R
+    400096: thumb.L
+    400098: thumb.L_end
+    400100: toe.L
+    400102: toe.L_end
+    400104: toe.R
+    400106: toe.R_end
+    400108: tumb.R
+    400110: tumb.R_end
+    400112: upper_arm.L
+    400114: upper_arm.R
+    400116: Weapon
+    400118: Weapon_end
+    4300000: Bottom
+    7400000: useSemiAuto.002
+    7400002: Rig|dropkick
+    7400004: Rig|dukesUp
+    7400006: Rig|idle
+    7400008: Rig|jump
+    7400010: Rig|jump slash
+    7400012: Rig|PoseLib
+    7400014: Rig|punch
+    7400016: Rig|sword stab
+    7400018: Rig|swordC
+    7400020: Rig|swordDown.001
+    7400022: Rig|swordRetry
+    7400024: Rig|swordThrust
+    7400026: Rig|swordThrust.001
+    7400028: Rig|swordThrust.002
+    7400030: Rig|swordThrust.004
+    7400032: Rig|useKnife,lowStab
+    7400034: Rig|useKnife.downSlash
+    7400036: Rig|useKnife.highStab
+    7400038: Rig|useSledgeHammer
+    7400040: Rig|useSword
+    7400042: Rig|useSwordB
+    7400044: Rig|useSwordD
+    7400046: Rig|walk
+    9500000: //RootNode
+    13700000: Bottom
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

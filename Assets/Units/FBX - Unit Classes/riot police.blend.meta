@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: cd6d3f282f0879244b3875760e056968
+timeCreated: 1528325503
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: armCtrl_L
+    100002: armCtrl_R
+    100004: armTarget_L
+    100006: armTarget_R
+    100008: boob_L
+    100010: boob_R
+    100012: boots
+    100014: bottom
+    100016: chest
+    100018: clavicle_L
+    100020: clavicle_R
+    100022: Cube
+    100024: finger_R
+    100026: fingers_L
+    100028: foot_L
+    100030: foot_R
+    100032: forearm_L
+    100034: forearm_R
+    100036: handL
+    100038: handR
+    100040: head
+    100042: head_0
+    100044: heel_L
+    100046: heel_R
+    100048: hips
+    100050: legCtrl_L
+    100052: legCtrl_R
+    100054: legPoleTgt_L
+    100056: legPoleTgt_R
+    100058: Melee_Weapon
+    100060: neck
+    100062: palm_L
+    100064: palm_R
+    100066: pepper_spray
+    100068: Ranged_Weapon
+    100070: Rig
+    100072: //RootNode
+    100074: shin_L
+    100076: shin_R
+    100078: spine
+    100080: taser
+    100082: thigh_L
+    100084: thigh_R
+    100086: thumb_L
+    100088: toe_L
+    100090: toe_R
+    100092: top
+    100094: tumb_R
+    100096: upper_arm_L
+    100098: upper_arm_R
+    100100: Weapon
+    400000: armCtrl_L
+    400002: armCtrl_R
+    400004: armTarget_L
+    400006: armTarget_R
+    400008: boob_L
+    400010: boob_R
+    400012: boots
+    400014: bottom
+    400016: chest
+    400018: clavicle_L
+    400020: clavicle_R
+    400022: Cube
+    400024: finger_R
+    400026: fingers_L
+    400028: foot_L
+    400030: foot_R
+    400032: forearm_L
+    400034: forearm_R
+    400036: handL
+    400038: handR
+    400040: head
+    400042: head_0
+    400044: heel_L
+    400046: heel_R
+    400048: hips
+    400050: legCtrl_L
+    400052: legCtrl_R
+    400054: legPoleTgt_L
+    400056: legPoleTgt_R
+    400058: Melee_Weapon
+    400060: neck
+    400062: palm_L
+    400064: palm_R
+    400066: pepper_spray
+    400068: Ranged_Weapon
+    400070: Rig
+    400072: //RootNode
+    400074: shin_L
+    400076: shin_R
+    400078: spine
+    400080: taser
+    400082: thigh_L
+    400084: thigh_R
+    400086: thumb_L
+    400088: toe_L
+    400090: toe_R
+    400092: top
+    400094: tumb_R
+    400096: upper_arm_L
+    400098: upper_arm_R
+    400100: Weapon
+    2300000: Cube
+    3300000: Cube
+    4300000: handL
+    4300002: Ranged_Weapon
+    4300004: Cube
+    4300006: Melee_Weapon
+    4300008: head
+    4300010: top
+    4300012: bottom
+    4300014: boots
+    4300016: pepper_spray
+    4300018: handR
+    4300020: taser
+    7400000: Default Take
+    7400002: dodge
+    7400004: doDodge
+    7400006: dropkick
+    7400008: dukesUp
+    7400010: fall_down
+    7400012: get_electrocuted
+    7400014: holdSemiAuto
+    7400016: idle
+    7400018: jump
+    7400020: jump_slash
+    7400022: meteorHammer
+    7400024: pepper_spray
+    7400026: PoseLib
+    7400028: punch
+    7400030: Rig_001_Rig_dropkick_Rig_dropkick
+    7400032: Rig_001_Rig_dukesUp_Rig_dukesUp
+    7400034: Rig_001_Rig_idle_Rig_idle
+    7400036: Rig_001_Rig_jump_slash_Rig_jump_slash
+    7400038: Rig_001_Rig_jump_Rig_jump
+    7400040: Rig_001_Rig_PoseLib_Rig_PoseLib
+    7400042: Rig_001_Rig_punch_Rig_punch
+    7400044: Rig_001_Rig_sword_stab_Rig_sword_stab
+    7400046: Rig_001_Rig_swordC_Rig_swordC
+    7400048: Rig_001_Rig_swordDown_001_Rig_swordDown_001
+    7400050: Rig_001_Rig_swordRetry_Rig_swordRetry
+    7400052: Rig_001_Rig_swordThrust_001_Rig_swordThrust_001
+    7400054: Rig_001_Rig_swordThrust_002_Rig_swordThrust_002
+    7400056: Rig_001_Rig_swordThrust_004_Rig_swordThrust_004
+    7400058: Rig_001_Rig_swordThrust_Rig_swordThrust
+    7400060: Rig_001_Rig_useSledgeHammer_Rig_useSledgeHammer
+    7400062: Rig_001_Rig_useSwordB_Rig_useSwordB
+    7400064: Rig_001_Rig_useSwordD_Rig_useSwordD
+    7400066: Rig_001_Rig_useSword_Rig_useSword
+    7400068: Rig_001_Rig_walk_001_Rig_walk_001
+    7400070: Rig_001_Rig_walk_002_Rig_walk_002
+    7400072: Rig_001_Rig_walk_003_Rig_walk_003
+    7400074: Rig_001_Rig_walk_004_Rig_walk_004
+    7400076: Rig_001_Rig_walk_Rig_walk
+    7400078: Rig_001_useSemiAuto_002_useSemiAuto_002
+    7400080: run
+    7400082: stand_with_shield
+    7400084: sword_stab
+    7400086: swordC
+    7400088: swordDown_001
+    7400090: swordRetry
+    7400092: swordThrust
+    7400094: swordThrust_001
+    7400096: swordThrust_002
+    7400098: swordThrust_004
+    7400100: tase
+    7400102: useSemiAuto
+    7400104: useSemiAuto_001
+    7400106: useSemiMain
+    7400108: useSledgeHammer
+    7400110: useSledgeHammerB
+    7400112: useSledgeHammerC
+    7400114: useSword
+    7400116: useSwordB
+    7400118: useSwordD
+    7400120: useTearGas
+    7400122: walk
+    9500000: //RootNode
+    13700000: boots
+    13700002: bottom
+    13700004: handL
+    13700006: handR
+    13700008: head
+    13700010: Melee_Weapon
+    13700012: pepper_spray
+    13700014: Ranged_Weapon
+    13700016: taser
+    13700018: top
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_000
+    second: {fileID: 2100000, guid: 54a3024d5f4c4304b9ac7e2b1da330d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_001__Untitled
+    second: {fileID: 2100000, guid: d4012dcdfc7880d4d8037c3b42ab004f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_002
+    second: {fileID: 2100000, guid: 918c60ed10b0f6e4c9492a8305587898, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_003
+    second: {fileID: 2100000, guid: 208c794d97db1134a87723e9b21f1125, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_004
+    second: {fileID: 2100000, guid: 21bd00cef7dce7140afb87f78fb990f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_006
+    second: {fileID: 2100000, guid: be37ed239f9fe3f4e89134e39f7fa230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_014
+    second: {fileID: 2100000, guid: 65efd7968928db746aef0c37bdd752f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_015
+    second: {fileID: 2100000, guid: 5d2af893f016a7e47aea28042e1c67dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_016
+    second: {fileID: 2100000, guid: 6b8573f1a02983546895931043544902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_019
+    second: {fileID: 2100000, guid: 1932e94f0ffc5bc4db46e3a03a7135e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrel_thigny_001__Untitled_000
+    second: {fileID: 2100000, guid: 6b7681310e352fa4a9f83302c99b1498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: 9c4257754b731af4b9df75987967f68e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blade_001
+    second: {fileID: 2100000, guid: 6c0899f3091327f4ca5ec091ecb9c23d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: electrodes
+    second: {fileID: 2100000, guid: 68fa20d4d7424a640993bd1e3387638d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gas_mask_thingy
+    second: {fileID: 2100000, guid: 8d8099e5d42da8648a5fa79474c97b17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handle_001
+    second: {fileID: 2100000, guid: ee1ee1ec7a6febe4886b77a27802169f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_black
+    second: {fileID: 2100000, guid: 1fa76361aaeb6d14f9c2b9b9bbe23018, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shirt_003
+    second: {fileID: 2100000, guid: 28eca147e32a29b49a677680ee0ad114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin
+    second: {fileID: 2100000, guid: 2507929fc0c7dc24c9fefd806957da56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tip
+    second: {fileID: 2100000, guid: 73c5a2c358c61e141b30397747354374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: visor
+    second: {fileID: 2100000, guid: b45b13dc1537146418cfbbf270852ad6, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

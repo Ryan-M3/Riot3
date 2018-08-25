@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17541b82858a8304fbc4fe08fe522449, type: 3}
+  m_Name: turquoise women's tee
+  m_EditorClassIdentifier: 
+  itemID: 13322
+  itemName: busty tshirt top
+  meshPreset: {fileID: 11400000, guid: 819ff31de8a30074b9ff211bd49c1fd8, type: 2}
+  probabilityToBeEquippedRandomly: 0.45
+  semanticGroupCandidates: []
+  dp: 0

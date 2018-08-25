@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5283b7e830875924d99d14d133511260, type: 3}
+  m_Name: Wearable By Women
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 5f43e7ddaa7dd5647aa9a44806cdfdf6, type: 2}
+  - {fileID: 11400000, guid: 5eee62afb47473c41a1b931b14786263, type: 2}
+  - {fileID: 11400000, guid: dfa91699b5f4cb6488e53fd5a9206b5f, type: 2}
+  - {fileID: 11400000, guid: 2b241b9f7a221fd4d883e98aca826671, type: 2}
+  - {fileID: 11400000, guid: a8ad7042c18e9ae4ca6fad232de36a2d, type: 2}
+  - {fileID: 11400000, guid: 5d248639b0308324f9bcebfcc6a700b4, type: 2}
+  - {fileID: 11400000, guid: a1b2859cdb925b5409623fb05d675e49, type: 2}
+  - {fileID: 11400000, guid: a571cccf0d990af46b3612612d2473c5, type: 2}
+  - {fileID: 11400000, guid: eaaff304af8fb09499a247e502d943d2, type: 2}
+  - {fileID: 11400000, guid: 14f9c50da43ba714ba05ab5e09ba916f, type: 2}
+  - {fileID: 11400000, guid: 428a521e424749d4d97220b2b980cafa, type: 2}
+  - {fileID: 11400000, guid: 08bfe9fcbfe55e3439d8ab3a4df5ef32, type: 2}
+  - {fileID: 11400000, guid: 2cb9f8a095607204587bc63ca01348e4, type: 2}
+  - {fileID: 11400000, guid: 52fdc3d95f729f7468bd5877c71486bf, type: 2}
+  - {fileID: 11400000, guid: 2f41ba13986a02e4395ae8f6000fc2ce, type: 2}
+  - {fileID: 11400000, guid: 8bb1fc9bc360e1648adb26ba1b1528a2, type: 2}
+  - {fileID: 11400000, guid: 6a80f21ef26eed141a79aeef658dd9d1, type: 2}
+  - {fileID: 11400000, guid: 0f47adeb80b7634438dd55b7231ac46f, type: 2}
+  - {fileID: 11400000, guid: 5e973574eb43ae54ea9d61ec61d99dbd, type: 2}
+  - {fileID: 11400000, guid: 803318b7b7396c143ab637fd651403e0, type: 2}
+  - {fileID: 11400000, guid: e6a4bc04814ee1f4495a71cfcb6bd5c5, type: 2}
+  - {fileID: 11400000, guid: 90e188f8461503046b672daa646af1c6, type: 2}

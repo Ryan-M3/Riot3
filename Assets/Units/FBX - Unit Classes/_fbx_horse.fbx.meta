@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: 331a33f27b95f2846b26e1d88641a752
+timeCreated: 1529091081
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: coreCtrl.L
+    100004: coreCtrl.L_end
+    100006: Cube
+    100008: ear.L
+    100010: ear.L_end
+    100012: ear.R
+    100014: ear.R_end
+    100016: far chest
+    100018: //RootNode
+    100020: fore ankle.L
+    100022: fore ankle.R
+    100024: fore calf.L
+    100026: fore calf.R
+    100028: fore collar bone.L
+    100030: fore collar bone.R
+    100032: fore hip.L
+    100034: fore hip.R
+    100036: fore hoof.L
+    100038: fore hoof.L_end
+    100040: fore hoof.R
+    100042: fore hoof.R_end
+    100044: fore thigh.L
+    100046: fore thigh.R
+    100048: foreCtrl.R
+    100050: foreCtrl.R_end
+    100052: foreTarget.L
+    100054: foreTarget.L_end
+    100056: foreTarget.R
+    100058: foreTarget.R_end
+    100060: hind  ankle.R
+    100062: hind ankle.L
+    100064: hind calf.L
+    100066: hind calf.R
+    100068: hind hip.L
+    100070: hind hip.R
+    100072: hind hoof.L
+    100074: hind hoof.L_end
+    100076: hind hoof.R
+    100078: hind hoof.R_end
+    100080: hind thigh.L
+    100082: hind thigh.R
+    100084: hindCtrl.L
+    100086: hindCtrl.L_end
+    100088: hindCtrl.R
+    100090: hindCtrl.R_end
+    100092: hindTarget.L
+    100094: hindTarget.L_end
+    100096: hindTarget.R
+    100098: hindTarget.R_end
+    100100: jaw
+    100102: jaw_end
+    100104: lower root bone
+    100106: mid chest
+    100108: middle spine
+    100110: near chest
+    100112: neck far
+    100114: neck far mid
+    100116: neck mid
+    100118: neck near
+    100120: neck near mid
+    100122: neckCtrl
+    100124: neckCtrl_end
+    100126: skull
+    100128: skull_end
+    100130: tail base
+    100132: tail end
+    100134: tail end_end
+    100136: tail mid
+    100138: tail near base
+    100140: tail near end
+    100142: tail root bone
+    100144: upper root bone
+    100146: armCtrl.L
+    100148: armCtrl.L_end
+    100150: armCtrl.R
+    100152: armCtrl.R_end
+    100154: armTarget.L
+    100156: armTarget.L_end
+    100158: armTarget.R
+    100160: armTarget.R_end
+    100162: boob.L
+    100164: boob.L_end
+    100166: boob.R
+    100168: boob.R_end
+    100170: boots
+    100172: bottom
+    100174: chest
+    100176: clavicle.L
+    100178: clavicle.R
+    100180: finger.R
+    100182: finger.R_end
+    100184: fingers.L
+    100186: fingers.L_end
+    100188: foot.L
+    100190: foot.R
+    100192: forearm.L
+    100194: forearm.R
+    100196: handL
+    100198: handR
+    100200: head
+    100202: head 1
+    100204: head_end
+    100206: heel.L
+    100208: heel.L_end
+    100210: heel.R
+    100212: hips
+    100214: legCtrl.L
+    100216: legCtrl.L_end
+    100218: legCtrl.R
+    100220: legCtrl.R_end
+    100222: legPoleTgt.L
+    100224: legPoleTgt.L_end
+    100226: legPoleTgt.R
+    100228: legPoleTgt.R_end
+    100230: Melee Weapon
+    100232: neck
+    100234: palm.L
+    100236: palm.R
+    100238: Rig
+    100240: shin.L
+    100242: shin.R
+    100244: spine
+    100246: thigh.L
+    100248: thigh.R
+    100250: thumb.L
+    100252: thumb.L_end
+    100254: toe.L
+    100256: toe.L_end
+    100258: toe.R
+    100260: toe.R_end
+    100262: top
+    100264: tumb.R
+    100266: tumb.R_end
+    100268: upper_arm.L
+    100270: upper_arm.R
+    100272: Weapon
+    100274: Weapon_end
+    100276: Human
+    400000: Armature
+    400002: coreCtrl.L
+    400004: coreCtrl.L_end
+    400006: Cube
+    400008: ear.L
+    400010: ear.L_end
+    400012: ear.R
+    400014: ear.R_end
+    400016: far chest
+    400018: //RootNode
+    400020: fore ankle.L
+    400022: fore ankle.R
+    400024: fore calf.L
+    400026: fore calf.R
+    400028: fore collar bone.L
+    400030: fore collar bone.R
+    400032: fore hip.L
+    400034: fore hip.R
+    400036: fore hoof.L
+    400038: fore hoof.L_end
+    400040: fore hoof.R
+    400042: fore hoof.R_end
+    400044: fore thigh.L
+    400046: fore thigh.R
+    400048: foreCtrl.R
+    400050: foreCtrl.R_end
+    400052: foreTarget.L
+    400054: foreTarget.L_end
+    400056: foreTarget.R
+    400058: foreTarget.R_end
+    400060: hind  ankle.R
+    400062: hind ankle.L
+    400064: hind calf.L
+    400066: hind calf.R
+    400068: hind hip.L
+    400070: hind hip.R
+    400072: hind hoof.L
+    400074: hind hoof.L_end
+    400076: hind hoof.R
+    400078: hind hoof.R_end
+    400080: hind thigh.L
+    400082: hind thigh.R
+    400084: hindCtrl.L
+    400086: hindCtrl.L_end
+    400088: hindCtrl.R
+    400090: hindCtrl.R_end
+    400092: hindTarget.L
+    400094: hindTarget.L_end
+    400096: hindTarget.R
+    400098: hindTarget.R_end
+    400100: jaw
+    400102: jaw_end
+    400104: lower root bone
+    400106: mid chest
+    400108: middle spine
+    400110: near chest
+    400112: neck far
+    400114: neck far mid
+    400116: neck mid
+    400118: neck near
+    400120: neck near mid
+    400122: neckCtrl
+    400124: neckCtrl_end
+    400126: skull
+    400128: skull_end
+    400130: tail base
+    400132: tail end
+    400134: tail end_end
+    400136: tail mid
+    400138: tail near base
+    400140: tail near end
+    400142: tail root bone
+    400144: upper root bone
+    400146: armCtrl.L
+    400148: armCtrl.L_end
+    400150: armCtrl.R
+    400152: armCtrl.R_end
+    400154: armTarget.L
+    400156: armTarget.L_end
+    400158: armTarget.R
+    400160: armTarget.R_end
+    400162: boob.L
+    400164: boob.L_end
+    400166: boob.R
+    400168: boob.R_end
+    400170: boots
+    400172: bottom
+    400174: chest
+    400176: clavicle.L
+    400178: clavicle.R
+    400180: finger.R
+    400182: finger.R_end
+    400184: fingers.L
+    400186: fingers.L_end
+    400188: foot.L
+    400190: foot.R
+    400192: forearm.L
+    400194: forearm.R
+    400196: handL
+    400198: handR
+    400200: head
+    400202: head 1
+    400204: head_end
+    400206: heel.L
+    400208: heel.L_end
+    400210: heel.R
+    400212: hips
+    400214: legCtrl.L
+    400216: legCtrl.L_end
+    400218: legCtrl.R
+    400220: legCtrl.R_end
+    400222: legPoleTgt.L
+    400224: legPoleTgt.L_end
+    400226: legPoleTgt.R
+    400228: legPoleTgt.R_end
+    400230: Melee Weapon
+    400232: neck
+    400234: palm.L
+    400236: palm.R
+    400238: Rig
+    400240: shin.L
+    400242: shin.R
+    400244: spine
+    400246: thigh.L
+    400248: thigh.R
+    400250: thumb.L
+    400252: thumb.L_end
+    400254: toe.L
+    400256: toe.L_end
+    400258: toe.R
+    400260: toe.R_end
+    400262: top
+    400264: tumb.R
+    400266: tumb.R_end
+    400268: upper_arm.L
+    400270: upper_arm.R
+    400272: Weapon
+    400274: Weapon_end
+    400276: Human
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
+    4300002: boots
+    4300004: bottom
+    4300006: handL
+    4300008: handR
+    4300010: head
+    4300012: Melee Weapon
+    4300014: top
+    7400000: Armature|walk
+    7400002: useSemiAuto.002
+    7400004: idle horse
+    7400006: Armature|idle
+    7400008: Armature|walk.002
+    7400010: Armature|walk.003
+    7400012: Armature|walk.004
+    7400014: Armature|walk.005
+    7400016: Rig|dropkick
+    7400018: Rig|dukesUp
+    7400020: Rig|fall down
+    7400022: Rig|get electrocuted
+    7400024: Rig|idle horse
+    7400026: Rig|idle.001
+    7400028: Rig|jump
+    7400030: Rig|jump slash
+    7400032: Rig|pepper spray
+    7400034: Rig|PoseLib
+    7400036: Rig|punch
+    7400038: Rig|Rig|Rig|dropkick|Rig|dropkick
+    7400040: Rig|Rig|Rig|dukesUp|Rig|dukesUp
+    7400042: Rig|Rig|Rig|fall down|Rig|fall down
+    7400044: Rig|Rig|Rig|get electrocuted|Rig|get electrocuted
+    7400046: Rig|Rig|Rig|idle|Rig|idle
+    7400048: Rig|Rig|Rig|jump slash|Rig|jump slash
+    7400050: Rig|Rig|Rig|jump|Rig|jump
+    7400052: Rig|Rig|Rig|pepper spray|Rig|pepper spray
+    7400054: Rig|Rig|Rig|PoseLib|Rig|PoseLib
+    7400056: Rig|Rig|Rig|punch|Rig|punch
+    7400058: Rig|Rig|Rig|Rig.001|Rig|dropkick|Rig|dropkick|Rig|Rig.001|Rig|dropk
+    7400060: Rig|Rig|Rig|Rig.001|Rig|dukesUp|Rig|dukesUp|Rig|Rig.001|Rig|dukesUp
+    7400062: Rig|Rig|Rig|Rig.001|Rig|idle|Rig|idle|Rig|Rig.001|Rig|idle|Rig|idle
+    7400064: Rig|Rig|Rig|Rig.001|Rig|jump slash|Rig|jump slash|Rig|Rig.001|Rig|j
+    7400066: Rig|Rig|Rig|Rig.001|Rig|jump|Rig|jump|Rig|Rig.001|Rig|jump|Rig|jump
+    7400068: Rig|Rig|Rig|Rig.001|Rig|PoseLib|Rig|PoseLib|Rig|Rig.001|Rig|PoseLib
+    7400070: Rig|Rig|Rig|Rig.001|Rig|punch|Rig|punch|Rig|Rig.001|Rig|punch|Rig|p
+    7400072: Rig|Rig|Rig|Rig.001|Rig|sword stab|Rig|sword stab|Rig|Rig.001|Rig|s
+    7400074: Rig|Rig|Rig|Rig.001|Rig|swordC|Rig|swordC|Rig|Rig.001|Rig|swordC|Ri
+    7400076: Rig|Rig|Rig|Rig.001|Rig|swordDown.001|Rig|swordDown.001|Rig|Rig.001
+    7400078: Rig|Rig|Rig|Rig.001|Rig|swordRetry|Rig|swordRetry|Rig|Rig.001|Rig|s
+    7400080: Rig|Rig|Rig|Rig.001|Rig|swordThrust.001|Rig|swordThrust.001|Rig|Rig
+    7400082: Rig|Rig|Rig|Rig.001|Rig|swordThrust.002|Rig|swordThrust.002|Rig|Rig
+    7400084: Rig|Rig|Rig|Rig.001|Rig|swordThrust.004|Rig|swordThrust.004|Rig|Rig
+    7400086: Rig|Rig|Rig|Rig.001|Rig|swordThrust|Rig|swordThrust|Rig|Rig.001|Rig
+    7400088: Rig|Rig|Rig|Rig.001|Rig|useSledgeHammer|Rig|useSledgeHammer|Rig|Rig
+    7400090: Rig|Rig|Rig|Rig.001|Rig|useSwordB|Rig|useSwordB|Rig|Rig.001|Rig|use
+    7400092: Rig|Rig|Rig|Rig.001|Rig|useSwordD|Rig|useSwordD|Rig|Rig.001|Rig|use
+    7400094: Rig|Rig|Rig|Rig.001|Rig|useSword|Rig|useSword|Rig|Rig.001|Rig|useSw
+    7400096: Rig|Rig|Rig|Rig.001|Rig|walk.001|Rig|walk.001|Rig|Rig.001|Rig|walk.
+    7400098: Rig|Rig|Rig|Rig.001|Rig|walk.002|Rig|walk.002|Rig|Rig.001|Rig|walk.
+    7400100: Rig|Rig|Rig|Rig.001|Rig|walk.003|Rig|walk.003|Rig|Rig.001|Rig|walk.
+    7400102: Rig|Rig|Rig|Rig.001|Rig|walk.004|Rig|walk.004|Rig|Rig.001|Rig|walk.
+    7400104: Rig|Rig|Rig|Rig.001|Rig|walk|Rig|walk|Rig|Rig.001|Rig|walk|Rig|walk
+    7400106: Rig|Rig|Rig|Rig.001|useSemiAuto.002|useSemiAuto.002|Rig|Rig.001|use
+    7400108: Rig|Rig|Rig|stand with shield|Rig|stand with shield
+    7400110: Rig|Rig|Rig|sword stab|Rig|sword stab
+    7400112: Rig|Rig|Rig|swordC|Rig|swordC
+    7400114: Rig|Rig|Rig|swordDown.001|Rig|swordDown.001
+    7400116: Rig|Rig|Rig|swordRetry|Rig|swordRetry
+    7400118: Rig|Rig|Rig|swordThrust.001|Rig|swordThrust.001
+    7400120: Rig|Rig|Rig|swordThrust.002|Rig|swordThrust.002
+    7400122: Rig|Rig|Rig|swordThrust.004|Rig|swordThrust.004
+    7400124: Rig|Rig|Rig|swordThrust|Rig|swordThrust
+    7400126: Rig|Rig|Rig|tase|Rig|tase
+    7400128: Rig|Rig|Rig|useSledgeHammer|Rig|useSledgeHammer
+    7400130: Rig|Rig|Rig|useSwordB|Rig|useSwordB
+    7400132: Rig|Rig|Rig|useSwordD|Rig|useSwordD
+    7400134: Rig|Rig|Rig|useSword|Rig|useSword
+    7400136: Rig|Rig|Rig|useTearGas|Rig|useTearGas
+    7400138: Rig|Rig|Rig|walk.001|Rig|walk.001
+    7400140: Rig|Rig|Rig|walk.002|Rig|walk.002
+    7400142: Rig|Rig|Rig|walk.003|Rig|walk.003
+    7400144: Rig|Rig|Rig|walk.004|Rig|walk.004
+    7400146: Rig|Rig|Rig|walk|Rig|walk
+    7400148: Rig|Rig|useSemiAuto.002|useSemiAuto.002
+    7400150: Rig|stand with shield
+    7400152: Rig|sword stab
+    7400154: Rig|swordC
+    7400156: Rig|swordDown.001
+    7400158: Rig|swordRetry
+    7400160: Rig|swordThrust
+    7400162: Rig|swordThrust.001
+    7400164: Rig|swordThrust.002
+    7400166: Rig|swordThrust.004
+    7400168: Rig|tase
+    7400170: Rig|useSledgeHammer
+    7400172: Rig|useSword
+    7400174: Rig|useSwordB
+    7400176: Rig|useSwordD
+    7400178: Rig|useTearGas
+    7400180: Rig|idle
+    7400182: Rig|walk.001
+    7400184: Rig|walk.002
+    7400186: Rig|walk.003
+    7400188: Rig|walk.004
+    7400190: Rig|walk.005
+    9500000: //RootNode
+    13700000: Cube
+    13700002: boots
+    13700004: bottom
+    13700006: handL
+    13700008: handR
+    13700010: head
+    13700012: Melee Weapon
+    13700014: top
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: 7d0fd8344dd25bd4ba47807384a4faab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ear
+    second: {fileID: 2100000, guid: b9dbfa386134a1140b6f70816640c98d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hooves
+    second: {fileID: 2100000, guid: c36a3d50356b1044d957f1435f739b32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nose
+    second: {fileID: 2100000, guid: ecb22cd8ccf58fa4f96b8620673106f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tail
+    second: {fileID: 2100000, guid: 87d26d4d53103e142999ff6ecb4c6d75, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle horse
+      takeName: Armature|idle horse
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

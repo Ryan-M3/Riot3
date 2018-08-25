@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a45709d04310b479a5b0771d750eda, type: 3}
+  m_Name: weapon, taser
+  m_EditorClassIdentifier: 
+  presetDescription: taser
+  meshSlot: 5
+  mesh: {fileID: 4300000, guid: e51e18b4040c0a04db95c21a846fc94a, type: 3}
+  mats:
+  - {fileID: 2100000, guid: fdf8b976d5e68b549b1840c73b3e7528, type: 2}
+  - {fileID: 2100000, guid: 9873b6c465c9e9b458477c7e81573918, type: 2}
+  - {fileID: 2100000, guid: 2124ad2a02ef01a4d828d18dce7a30a4, type: 2}
+  - {fileID: 2100000, guid: 562d018e2d2fa1749b29b56816348caa, type: 2}
+  skinMatIndex: -1

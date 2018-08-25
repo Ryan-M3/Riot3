@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5283b7e830875924d99d14d133511260, type: 3}
+  m_Name: Orange Things
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: a8ad7042c18e9ae4ca6fad232de36a2d, type: 2}
+  - {fileID: 11400000, guid: 37f0e5191b8246943b15274f591c7aed, type: 2}
+  - {fileID: 11400000, guid: 6a80f21ef26eed141a79aeef658dd9d1, type: 2}
+  - {fileID: 11400000, guid: cc6637cb86da3ff4ebefa53ca741fac6, type: 2}

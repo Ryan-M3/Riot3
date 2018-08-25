@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a45709d04310b479a5b0771d750eda, type: 3}
+  m_Name: boots, basic
+  m_EditorClassIdentifier: 
+  presetDescription: boots
+  meshSlot: 3
+  mesh: {fileID: 4300000, guid: 3f536e883474c2b4896cb3664bee54bb, type: 3}
+  mats:
+  - {fileID: 2100000, guid: 6c28420888377a44b85e8d6d5e3292dc, type: 2}
+  skinMatIndex: -1

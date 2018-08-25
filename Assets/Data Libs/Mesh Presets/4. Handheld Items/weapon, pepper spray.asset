@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a45709d04310b479a5b0771d750eda, type: 3}
+  m_Name: weapon, pepper spray
+  m_EditorClassIdentifier: 
+  presetDescription: Pepper Spray
+  meshSlot: 5
+  mesh: {fileID: 4300000, guid: eee27561963a9aa478c6e410286760b5, type: 3}
+  mats:
+  - {fileID: 2100000, guid: 2da1682e576a8d54c9b69221d42014c6, type: 2}
+  - {fileID: 2100000, guid: b1689db7b5f5e924f848fdcb9b37958c, type: 2}
+  - {fileID: 2100000, guid: 2124ad2a02ef01a4d828d18dce7a30a4, type: 2}
+  - {fileID: 2100000, guid: 6cd3584410773ad458eca6046d091828, type: 2}
+  skinMatIndex: -1

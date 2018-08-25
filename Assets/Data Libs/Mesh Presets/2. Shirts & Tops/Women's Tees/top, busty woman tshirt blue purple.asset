@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a45709d04310b479a5b0771d750eda, type: 3}
+  m_Name: top, busty woman tshirt blue purple
+  m_EditorClassIdentifier: 
+  presetDescription: women's t-shirt
+  meshSlot: 1
+  mesh: {fileID: 4300000, guid: e66aec4eb4abb5b4f808c203476adf48, type: 3}
+  mats:
+  - {fileID: 2100000, guid: 747c7fa967f359243a2f19fcbb9c6463, type: 2}
+  - {fileID: 2100000, guid: a0914bd44307e8e43af740411d294695, type: 2}
+  skinMatIndex: 1

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bbd911df1b186849bacb82e0e4c9b29, type: 3}
+  m_Name: Equippable Icon Lib
+  m_EditorClassIdentifier: 
+  icons:
+  - desc: boots
+    item: {fileID: 11400000, guid: 5f43e7ddaa7dd5647aa9a44806cdfdf6, type: 2}
+    img: {fileID: 21300000, guid: 9317e0dead70ff9469040ed9949ccf2f, type: 3}
+  - desc: pants
+    item: {fileID: 11400000, guid: 9ee333ee0e81a314694f7012ce83fae0, type: 2}
+    img: {fileID: 21300000, guid: 2d6464ae3a5884f4e9203ac4ae5f2201, type: 3}
+  - desc: armoredShirt
+    item: {fileID: 11400000, guid: d606033ae173fb64ba55d92bc9e76a9d, type: 2}
+    img: {fileID: 21300000, guid: 68825a5f312207e438a877f2513bd892, type: 3}
+  - desc: gasMaskHelmet
+    item: {fileID: 11400000, guid: 849a03f079b6d7e4e80218875e832dd7, type: 2}
+    img: {fileID: 21300000, guid: 261e9ee8f810cf9409104286ae9d37c0, type: 3}
+  - desc: shield
+    item: {fileID: 11400000, guid: 07d6692bcdcc7e044a7de681926fdbf7, type: 2}
+    img: {fileID: 21300000, guid: 1b63f0797a4fe4b468b8e57bd27c915c, type: 3}
+  - desc: no weapon
+    item: {fileID: 11400000, guid: 1c02b2635f9a69147879e059cd3d9e43, type: 2}
+    img: {fileID: 21300000, guid: a43eae5f1c8299b4e906ae801dcdb722, type: 3}
+  - desc: baton
+    item: {fileID: 11400000, guid: 68b5e5243298b6d4d8f1620071cf53d2, type: 2}
+    img: {fileID: 21300000, guid: ff4196976edf51448a9ee46dfaf8729d, type: 3}
+  - desc: Pepper Spray
+    item: {fileID: 11400000, guid: 1b0a925da18e99f4e87c2318e7b553a4, type: 2}
+    img: {fileID: 21300000, guid: a9797d214e2e7844c97fd4bec02318ae, type: 3}
+  - desc: Taser
+    item: {fileID: 11400000, guid: bab0cd59c3c1eae41aa6f4fe7846055e, type: 2}
+    img: {fileID: 21300000, guid: 0ab57b12a5fdfbb46800f8b5ec3f7bff, type: 3}
+  - desc: Tear Gas
+    item: {fileID: 11400000, guid: 834e91ed0c681f744a15650031655c1e, type: 2}
+    img: {fileID: 21300000, guid: 561bbbda735703540b50826fe82df52d, type: 3}

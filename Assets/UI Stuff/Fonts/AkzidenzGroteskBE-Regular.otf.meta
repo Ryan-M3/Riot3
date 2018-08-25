@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: f9b5d4fddeb170f4d8a25c1b1fea9a1b
+timeCreated: 1528404231
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Berthold Akzidenz Grotesk
+  fontNames:
+  - Berthold Akzidenz Grotesk
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e7ecfd3d803ce924fb9d3ecb5a0e10a5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

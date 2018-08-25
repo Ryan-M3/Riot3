@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: 03b3edf5d1d2dfa4db8e68b6ea7aabbe
+timeCreated: 1528654281
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: armCtrl.L
+    100002: armCtrl.L_end
+    100004: armCtrl.R
+    100006: armCtrl.R_end
+    100008: armTarget.L
+    100010: armTarget.L_end
+    100012: armTarget.R
+    100014: armTarget.R_end
+    100016: boob.L
+    100018: boob.L_end
+    100020: boob.R
+    100022: boob.R_end
+    100024: bottom
+    100026: chest
+    100028: clavicle.L
+    100030: clavicle.R
+    100032: Cube
+    100034: //RootNode
+    100036: finger.R
+    100038: finger.R_end
+    100040: fingers.L
+    100042: fingers.L_end
+    100044: foot.L
+    100046: foot.R
+    100048: forearm.L
+    100050: forearm.R
+    100052: head
+    100054: head 1
+    100056: head_end
+    100058: heel.L
+    100060: heel.L_end
+    100062: heel.R
+    100064: hips
+    100066: legCtrl.L
+    100068: legCtrl.L_end
+    100070: legCtrl.R
+    100072: legCtrl.R_end
+    100074: legPoleTgt.L
+    100076: legPoleTgt.L_end
+    100078: legPoleTgt.R
+    100080: legPoleTgt.R_end
+    100082: neck
+    100084: palm.L
+    100086: palm.R
+    100088: Rig
+    100090: shin.L
+    100092: shin.R
+    100094: shoes
+    100096: spine
+    100098: thigh.L
+    100100: thigh.R
+    100102: thumb.L
+    100104: thumb.L_end
+    100106: toe.L
+    100108: toe.L_end
+    100110: toe.R
+    100112: toe.R_end
+    100114: top
+    100116: tumb.R
+    100118: tumb.R_end
+    100120: upper_arm.L
+    100122: upper_arm.R
+    100124: Weapon
+    100126: Weapon_end
+    100128: boots
+    100130: handL
+    100132: handR
+    100134: Melee Weapon
+    400000: armCtrl.L
+    400002: armCtrl.L_end
+    400004: armCtrl.R
+    400006: armCtrl.R_end
+    400008: armTarget.L
+    400010: armTarget.L_end
+    400012: armTarget.R
+    400014: armTarget.R_end
+    400016: boob.L
+    400018: boob.L_end
+    400020: boob.R
+    400022: boob.R_end
+    400024: bottom
+    400026: chest
+    400028: clavicle.L
+    400030: clavicle.R
+    400032: Cube
+    400034: //RootNode
+    400036: finger.R
+    400038: finger.R_end
+    400040: fingers.L
+    400042: fingers.L_end
+    400044: foot.L
+    400046: foot.R
+    400048: forearm.L
+    400050: forearm.R
+    400052: head
+    400054: head 1
+    400056: head_end
+    400058: heel.L
+    400060: heel.L_end
+    400062: heel.R
+    400064: hips
+    400066: legCtrl.L
+    400068: legCtrl.L_end
+    400070: legCtrl.R
+    400072: legCtrl.R_end
+    400074: legPoleTgt.L
+    400076: legPoleTgt.L_end
+    400078: legPoleTgt.R
+    400080: legPoleTgt.R_end
+    400082: neck
+    400084: palm.L
+    400086: palm.R
+    400088: Rig
+    400090: shin.L
+    400092: shin.R
+    400094: shoes
+    400096: spine
+    400098: thigh.L
+    400100: thigh.R
+    400102: thumb.L
+    400104: thumb.L_end
+    400106: toe.L
+    400108: toe.L_end
+    400110: toe.R
+    400112: toe.R_end
+    400114: top
+    400116: tumb.R
+    400118: tumb.R_end
+    400120: upper_arm.L
+    400122: upper_arm.R
+    400124: Weapon
+    400126: Weapon_end
+    400128: boots
+    400130: handL
+    400132: handR
+    400134: Melee Weapon
+    2300000: Cube
+    3300000: Cube
+    4300000: Cube
+    4300002: head
+    4300004: top
+    4300006: bottom
+    4300008: shoes
+    4300010: handL
+    4300012: Melee Weapon
+    4300014: boots
+    4300016: handR
+    7400000: walk
+    7400002: Rig|dropkick
+    7400004: Rig|dukesUp
+    7400006: Rig|idle
+    7400008: Rig|jump
+    7400010: Rig|jump slash
+    7400012: Rig|PoseLib
+    7400014: Rig|punch
+    7400016: Rig|sword stab
+    7400018: Rig|swordC
+    7400020: Rig|swordDown.001
+    7400022: Rig|swordRetry
+    7400024: Rig|swordThrust
+    7400026: Rig|swordThrust.001
+    7400028: Rig|swordThrust.002
+    7400030: Rig|swordThrust.004
+    7400032: Rig|useSledgeHammer
+    7400034: Rig|useSword
+    7400036: Rig|useSwordB
+    7400038: Rig|useSwordD
+    7400040: walk
+    7400042: Rig|walk.001
+    7400044: Rig|walk.002
+    7400046: Rig|walk.003
+    7400048: Rig|walk.004
+    7400050: Cube|useSledgeHammerC
+    7400052: Cube|walk.001
+    7400054: Cube|walk.002
+    7400056: Cube|walk.003
+    7400058: Cube|walk.004
+    9500000: //RootNode
+    13700000: bottom
+    13700002: head
+    13700004: shoes
+    13700006: top
+    13700008: boots
+    13700010: handL
+    13700012: handR
+    13700014: Melee Weapon
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.000
+    second: {fileID: 2100000, guid: c72dc2e8d8d7a6a4f8a954ed36e9f71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: b03c2bd971b94b04992b2ddde8cbecca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: b60378fbfa80a1d4bbc2b28f66dbdbd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: c458f70b273840842b41d121a0b36a36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.016
+    second: {fileID: 2100000, guid: fe1700830d6cf0e4ea457b3fc009d2ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.019
+    second: {fileID: 2100000, guid: 72be0b825437e914eb4ecaebe8ea5a3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gas mask thingy
+    second: {fileID: 2100000, guid: 33088e92723298845847683c8c0408c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet black
+    second: {fileID: 2100000, guid: bb176eb149939aa44929d6a75b1cadcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shirt.003
+    second: {fileID: 2100000, guid: 8d6321de46459784d950a2edc27c9056, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin
+    second: {fileID: 2100000, guid: 6fd60dc17cd443149a0a167ce3878b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: visor
+    second: {fileID: 2100000, guid: 34af9995a52f7864b9a42f2c9dde86e4, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Rig|walk
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rig|punch
+      takeName: Rig|punch
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

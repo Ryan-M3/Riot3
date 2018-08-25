@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b816cac1ec893ed4a9d8d5098850e50b, type: 3}
+  m_Name: Mission Unit Lib
+  m_EditorClassIdentifier: 
+  defaults:
+  - prefab: {fileID: 1362996176390886, guid: 7172f757b827694418853723d5b80816, type: 2}
+    unitType: 0
+  - prefab: {fileID: 1247386188498644, guid: 32db991d5b288ae4eabe50330e2936eb, type: 2}
+    unitType: 1
+  - prefab: {fileID: 1247386188498644, guid: 32db991d5b288ae4eabe50330e2936eb, type: 2}
+    unitType: 2
+  - prefab: {fileID: 1452988961441342, guid: bfe0898e83f43a842974cfac63980ca0, type: 2}
+    unitType: 3
+  - prefab: {fileID: 1091071222566496, guid: c3451513f0c4d1d48bf71bc719e8ba95, type: 2}
+    unitType: 4

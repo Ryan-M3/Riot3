@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a45709d04310b479a5b0771d750eda, type: 3}
+  m_Name: head, hoodie head
+  m_EditorClassIdentifier: 
+  presetDescription: hoodie head
+  meshSlot: 0
+  mesh: {fileID: 4300000, guid: febb22db4cf1d5845940c022f553b8ec, type: 3}
+  mats:
+  - {fileID: 2100000, guid: a0914bd44307e8e43af740411d294695, type: 2}
+  skinMatIndex: 0

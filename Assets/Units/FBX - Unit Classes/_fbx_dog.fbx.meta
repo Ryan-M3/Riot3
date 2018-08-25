@@ -1,0 +1,381 @@
+fileFormatVersion: 2
+guid: e4306e610a39bbb4687902fe33f0360d
+timeCreated: 1529129297
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: coreCtrl.L
+    100006: coreCtrl.L_end
+    100008: Cube
+    100010: ear.L
+    100012: ear.L_end
+    100014: ear.R
+    100016: ear.R_end
+    100018: far chest
+    100020: fore ankle.L
+    100022: fore ankle.R
+    100024: fore calf.L
+    100026: fore calf.R
+    100028: fore collar bone.L
+    100030: fore collar bone.R
+    100032: fore hip.L
+    100034: fore hip.R
+    100036: fore hoof.L
+    100038: fore hoof.L_end
+    100040: fore hoof.R
+    100042: fore hoof.R_end
+    100044: fore thigh.L
+    100046: fore thigh.R
+    100048: foreCtrl.R
+    100050: foreCtrl.R_end
+    100052: foreTarget.L
+    100054: foreTarget.L_end
+    100056: foreTarget.R
+    100058: foreTarget.R_end
+    100060: hind  ankle.R
+    100062: hind ankle.L
+    100064: hind calf.L
+    100066: hind calf.R
+    100068: hind hip.L
+    100070: hind hip.R
+    100072: hind hoof.L
+    100074: hind hoof.L_end
+    100076: hind hoof.R
+    100078: hind hoof.R_end
+    100080: hind thigh.L
+    100082: hind thigh.R
+    100084: hindCtrl.L
+    100086: hindCtrl.L_end
+    100088: hindCtrl.R
+    100090: hindCtrl.R_end
+    100092: hindTarget.L
+    100094: hindTarget.L_end
+    100096: hindTarget.R
+    100098: hindTarget.R_end
+    100100: jaw
+    100102: jaw_end
+    100104: lower root bone
+    100106: mid chest
+    100108: middle spine
+    100110: near chest
+    100112: neck far
+    100114: neck far mid
+    100116: neck mid
+    100118: neck near
+    100120: neck near mid
+    100122: neckCtrl
+    100124: neckCtrl_end
+    100126: skull
+    100128: skull_end
+    100130: tail base
+    100132: tail end
+    100134: tail end_end
+    100136: tail mid
+    100138: tail near base
+    100140: tail near end
+    100142: tail root bone
+    100144: upper root bone
+    100146: tailCtrl
+    100148: tailCtrl_end
+    400000: //RootNode
+    400002: Armature
+    400004: coreCtrl.L
+    400006: coreCtrl.L_end
+    400008: Cube
+    400010: ear.L
+    400012: ear.L_end
+    400014: ear.R
+    400016: ear.R_end
+    400018: far chest
+    400020: fore ankle.L
+    400022: fore ankle.R
+    400024: fore calf.L
+    400026: fore calf.R
+    400028: fore collar bone.L
+    400030: fore collar bone.R
+    400032: fore hip.L
+    400034: fore hip.R
+    400036: fore hoof.L
+    400038: fore hoof.L_end
+    400040: fore hoof.R
+    400042: fore hoof.R_end
+    400044: fore thigh.L
+    400046: fore thigh.R
+    400048: foreCtrl.R
+    400050: foreCtrl.R_end
+    400052: foreTarget.L
+    400054: foreTarget.L_end
+    400056: foreTarget.R
+    400058: foreTarget.R_end
+    400060: hind  ankle.R
+    400062: hind ankle.L
+    400064: hind calf.L
+    400066: hind calf.R
+    400068: hind hip.L
+    400070: hind hip.R
+    400072: hind hoof.L
+    400074: hind hoof.L_end
+    400076: hind hoof.R
+    400078: hind hoof.R_end
+    400080: hind thigh.L
+    400082: hind thigh.R
+    400084: hindCtrl.L
+    400086: hindCtrl.L_end
+    400088: hindCtrl.R
+    400090: hindCtrl.R_end
+    400092: hindTarget.L
+    400094: hindTarget.L_end
+    400096: hindTarget.R
+    400098: hindTarget.R_end
+    400100: jaw
+    400102: jaw_end
+    400104: lower root bone
+    400106: mid chest
+    400108: middle spine
+    400110: near chest
+    400112: neck far
+    400114: neck far mid
+    400116: neck mid
+    400118: neck near
+    400120: neck near mid
+    400122: neckCtrl
+    400124: neckCtrl_end
+    400126: skull
+    400128: skull_end
+    400130: tail base
+    400132: tail end
+    400134: tail end_end
+    400136: tail mid
+    400138: tail near base
+    400140: tail near end
+    400142: tail root bone
+    400144: upper root bone
+    400146: tailCtrl
+    400148: tailCtrl_end
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
+    7400000: walk
+    7400002: be happy
+    7400004: wag tail
+    7400006: attack
+    9500000: //RootNode
+    13700000: Cube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: a626b7a97a0a9ed458803a1e893ce623, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ear
+    second: {fileID: 2100000, guid: 282264dcde8655145a6d0f34e7c1507a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hooves
+    second: {fileID: 2100000, guid: 80051846b66a32c48a77bed43d75e8a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nose
+    second: {fileID: 2100000, guid: 2e61992588de5144fa82d8846f9e7f06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tail
+    second: {fileID: 2100000, guid: 547cd71fa3383b54e9158000eaf12adf, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: be happy
+      takeName: Armature|be happy
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: wag tail
+      takeName: Armature|wag tail
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Armature|walk
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Armature|attack
+      firstFrame: 0
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

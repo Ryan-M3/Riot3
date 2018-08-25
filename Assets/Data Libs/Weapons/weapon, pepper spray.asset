@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ce98c5de2aee341b4a941ff5c93419, type: 3}
+  m_Name: weapon, pepper spray
+  m_EditorClassIdentifier: 
+  itemID: -6563046
+  itemName: Pepper Spray
+  meshPreset: {fileID: 11400000, guid: 10d0f63eb4e1c3941bd6c2ec3fdd4362, type: 2}
+  probabilityToBeEquippedRandomly: 0
+  semanticGroupCandidates: []
+  price: 1
+  ap_cost: 1
+  range: 2
+  initAmmo: 10
+  requiresUnitTarget: 1
+  needsSight: 1
+  dmgTbl:
+    hp: 0
+    ap: 1
+    dp: 0
+    fear: 0
+    anger: 0
+  vfx: {fileID: 0}
+  projectilePrefab: {fileID: 1111818397356504, guid: 9d7f103009ccbc143ba34ebc8ecfa2b3,
+    type: 2}
+  angle: 0
+  speed: 0

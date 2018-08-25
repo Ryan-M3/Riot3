@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a45709d04310b479a5b0771d750eda, type: 3}
+  m_Name: boots, sneakers, blue
+  m_EditorClassIdentifier: 
+  presetDescription: sneakers
+  meshSlot: 3
+  mesh: {fileID: 4300000, guid: a8f0dff9b619a694fa318863c17e504a, type: 3}
+  mats:
+  - {fileID: 2100000, guid: a14f6989a6c8c174b86108823e1c649b, type: 2}
+  - {fileID: 2100000, guid: 94a8a1eb6acf9d34b8c06e731ec8138d, type: 2}
+  skinMatIndex: -1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5283b7e830875924d99d14d133511260, type: 3}
+  m_Name: Blue Things
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 5eee62afb47473c41a1b931b14786263, type: 2}
+  - {fileID: 11400000, guid: a571cccf0d990af46b3612612d2473c5, type: 2}
+  - {fileID: 11400000, guid: eaaff304af8fb09499a247e502d943d2, type: 2}
+  - {fileID: 11400000, guid: dfa91699b5f4cb6488e53fd5a9206b5f, type: 2}
+  - {fileID: 11400000, guid: 2f41ba13986a02e4395ae8f6000fc2ce, type: 2}
+  - {fileID: 11400000, guid: 803318b7b7396c143ab637fd651403e0, type: 2}
+  - {fileID: 11400000, guid: 95edd9799e7842a499129ff0ba6c746b, type: 2}
+  - {fileID: 11400000, guid: 5dc490e093b74004887f39d85008c949, type: 2}
+  - {fileID: 11400000, guid: 066a3d62556bd884e96d2488162deb92, type: 2}
+  - {fileID: 11400000, guid: a18200948f968af40aa98e69fbbdd01c, type: 2}

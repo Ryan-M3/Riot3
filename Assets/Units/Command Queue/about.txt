@@ -1,0 +1,1 @@
+The primary purpose of the command queue is to record a history of actions and allow any action the player take to be undone, while also allowing a replay feature.
