@@ -172,3 +172,159 @@ Shuffles an array. It's short and simple, but I did steal it from a stackoverflo
 
 The implementation is slightly different when you're using Unity's MonoBehaviours rather than just straight C# code.
 
+
+## Not My Art Assets
+
+Art assets I grabbed elsewhere.
+
+## Object Abstractions
+
+Certain character stats like action point and health points needed their own logic, so I broke them out into components (Unity uses an Entity-Component system rather than a deeply nested hierarchy more typical in OOP). For instance, action points need to refresh every turn.
+
+## Plugins
+
+This is a special folder in Unity for using DLLs. I used SQLiter which allowed me to use a SQL database to create the save file. I did not code SQLiter myself, but I also can't put it in the "Not My Code" folder (it only works if you put it in Plugins).
+
+## Post-Processing
+
+This is a folder Unity uses to do post-processing effects. I did not write this either.
+
+## Powerups
+
+Contains logic and assets for having items protestors can pick up and use. It only actually has a brick powerup, but in prior stuff I've coded these can get rather baroque and complicated.
+
+## Save File
+
+The logic requireed to save and load data from the save file.
+
+## Scene Models and Objects
+
+These are the files for the 3d meshses used in the game, as well as Unity prefabs (stock objects you can create and drop into the game). I made it all in Blender, which I've become quite fond of, but none of it's really got anything to do with programming.
+
+## Scenes
+
+These are what Unity loads to let you play the game: the splash screen, the headquarters for upgrading units, the actual level with rioters, and some testing and debug scenes.
+
+## Streaming Assets
+
+This is a file used by Unity save and load data and only contains baked distance data (see: Board). It is incomplete as some files were too big for github.
+
+## UI Stuff
+
+Since I roughyly used a model-view-controller architecture, this whole folder can be considered the View part of that.
+
+#### Button Maker
+
+It's a pain to set-up the UI every single time you make a change so I decided to generate the UI somewhat dynamically during run-time. 
+
+#### Camera
+
+Logic regarding how the main camera is controlled and operates.
+
+###### DressupCamera
+
+This is the camera that is focused on a character when you're editing their armor and stats. It mostly just rotates around the character.
+
+###### Move Camera
+
+Provides the basic functionality of moving the camera: taking keyboard inputs and performing rotation, translation, and zoom.
+
+###### Toggle Layers
+
+This script controls what "layers" are actually rendered by the camera. The grid overlay of the board is on its own layer and you can toggle it on and off to your liking.
+
+#### Cursor
+
+This moves the in-game cursor.
+
+#### Dancing Ants
+
+This is an effect that was strangely a real pain to implement that draws a dotted line around one or more tiles to show that it is in some way highlighted or selected.
+
+#### Draggable Icons
+
+Allows you to drag an icon from one place to another. The code is mostly from the official Unity documentation on dragging events.
+
+#### Draggable Unit Icons
+
+I wanted to keep the UI as uncluttered as possible and I took inspiration from a talk I watched where the UI designer said he wanted all of the UI elements to be in-game, where the player was looking rather than in the HUD or as an icon in the top right corner or whatever it was. So my idea was that you would have an icon representing your character and you would drag that icon to the appropriate spot on the screen to do stuff.
+
+For instance, before each mission (there's only one because this is for demonstration purposes) icons representing units are loaded up on the left side of the screen. If you drag that icon to the middle of the screen, it transforms into the actual character mesh and you can edit your unit by upgrading armor and equipping weapons. Then, you can drag that character to the right of the screen labeled as "on mission" to actually send him on the mission. In this way, you're physically moving him to the mission.
+
+Additionally, during the mission when it's time to position units on the ground, you drag the icon onto the scene, where the unit transforms from an icon into a diegetic character model.
+
+I called this behavior a "chimera" because the object can transform between an icon representation and a physical character model representation depending on where you've dragged the unit to.
+
+#### Equippable Icons
+
+This controls thee behavior of icons representing weapons and armor that you can have your units equip. For instance, it looks up and calculates if you have enough of this item on-hand and overlays a lock on the icon.
+
+#### Fonts
+
+Just some fonts.
+
+#### Global UI Trackers
+
+I remember reading about the psychology of grouping items together and that one thing the brain pays attention to is if two different things change at the same time. So my idea was that any non-diegetic UI elements would slowly drift in hue over time, but because all UI elements are similarly drifting in color, that tells you it's a UI element. I like the way it looked, so all manner of objects now track a global UI color (whatever it is at that precise moment). This includes text, lights, materials, you name it.
+
+#### Grid Overlay
+
+The game is grid-based, so to implement a grid overlay I wound up creating a transparent plane with a grid on it. Then, the plane followed the camera. Additionally, I had to make the plane larger whenever the camera zoomed out. That also meant dynamically chaning the underlying texture so that the grid didn't get stretched out.
+
+#### Home Base UI
+
+The only programming thing that's actually in here is logic for displaying and using cash to buy equipment and upgrades.
+
+#### Level Complete Screen
+
+A not very complicated script for calling level over. However, my game doesn't actually do anything interesting when the level is complete so that's why it's not very interesting. You can imagine that displaying a score with a count-down and some statistics, plus adding achievements or whatever could make this complicated. But I just didn't happen to do anything interesting with that.
+
+#### Misc
+
+Things that don't fit anywhere else. Contains logic for creating a new unit in the pre-mission screen, and a script for dynamically creating the buttons for the splash screen (see: UI Stuff/Button Maker).
+
+#### MsgQ
+
+Responsible for logging messages to the player on screen.
+
+#### Other Artwork
+
+Nothing to do with coding here.
+
+#### Path Drawer
+
+Drawing a path from the player to the mouse is actually done in two parts. The first draws the actual line. The second shows an icon with some text in the center of it that gives additional information. Player actions are actually modal (see: Global State Adaptors) so when you press "move" or "attack" or something like that, you actually enter "move mode" or "attack mode" and the options displayed to you are different. However, I tried to make these options as diegetic as possible (see: Draggable Unit Icons). So the idea is to have the mouse or whatever's on screen actually change rather than some button in a corner.
+
+For movement, the polygon at the end of the path is a circle and the number inside the circle indicates how many action points it will cost. For attack mode, you have a pentagon and the damage is displayed. If your weapon doesn't have enough range to reach where you're pointing, it simply doesn't draw anything there.
+
+#### Turn Visualizer
+
+During "turn mode" there's an arrow pointing and rotating either clockwise or counter-clockwise around your unit depending on which direction you want to turn your unit. See: path drawer.
+
+#### UI Object Manipulation
+
+A couple of utility scripts for manipulating UI.
+
+###### ActiveDuringViewMode
+
+Turns an UI element or script on or off depending on what viewmode is selected. See: Global State Adaptors
+
+###### Close Group
+
+Turns on/off a bunch of different UI elements at oncee.
+
+###### GluiUItoWorldObj
+
+Hovers a UI element "over" a diegetic scene object. This basically just means translating between scene space and world space.
+
+###### InactiveIfNoChildren
+
+This is used when moving unit icons across the screen. See Draggable Unit Icons.
+
+###### RenderBehind
+
+Renders one UI element behind another.
+
+###### TrackCamYLookAtCursor
+
+I honestly couldn't come up with a better name for what this script does. Suppose I have a plane or object that I always want to face the camera, but I also want it rotated towards the mouse, like an arrow that always points to the mouse. That's what this script does.
