@@ -328,3 +328,75 @@ Renders one UI element behind another.
 ###### TrackCamYLookAtCursor
 
 I honestly couldn't come up with a better name for what this script does. Suppose I have a plane or object that I always want to face the camera, but I also want it rotated towards the mouse, like an arrow that always points to the mouse. That's what this script does.
+
+## Units
+
+#### Animations
+
+The only script here just slects an animation at random out of a list of animations to play. Animations in this context mean the movement of characters on the screen, rather than a cartoon.
+
+#### Basic Scripts
+
+###### CanAttackCar
+
+Rioters can band together to flip over a car. This script prrovides that functionality.
+
+###### CharSheet
+
+I envisioned each unit as having a sort of D&D character sheet. This makes saving and loading a unit from a save file easy to deal with as you're basically just saving the character sheet.
+
+###### EnemyCtrl
+
+I did a decent job in the file itself:
+    /// <summary>
+    /// While each individual unit is controlled independently
+    /// boids-style, there's still a need to control all units
+    /// in the same way that the player controls each of his.
+    /// As an example, no individual rioter can end the enemy
+    /// turn, only the EnemyCtrl can, but what each enemy does
+    /// for its turn is controlled by that RioterAI, not the
+    /// EnemyCtrl. EnemyCtrl is the imagined enemy player in
+    /// the seat and RioterAI is the unit on the board.
+    /// </summary>
+
+###### GettingArrestedStatus
+
+I implemented the process of being arrested as a status effect. I decided that it made the most sense to arrest a rioter on the condition that they don't have enough action points to resist arrest. Further, I decided that the non-lethal force used by riot police should primarily deplete a rioter's ability to resist arrest. Actually depleting their health points and killing them is something the player should try to avoid.
+
+###### MeshSetter
+
+Componenet that enables you to change the mesh (clothing) on the rig of you character model.
+
+###### MeshSetterWaveFn
+
+Junk file. The actual code is now located in Data Libs.
+
+###### Party
+
+This is the concept of your "party" in a traditional RPG setting. The rioters are on party and the riot police are the other party.
+
+###### RioterAI
+
+Controls the behavior or the rioters.
+
+###### SceneLoader
+
+###### Unit
+
+#### Chimera, HQ Unit
+
+#### Chimera, Mission Units
+
+#### Command Queue
+
+#### FBX - Unit Classes
+
+#### Misc
+
+#### Names 
+
+#### Skin Tones
+
+#### StatusFx
+
+#### Unit Class Prefabs
