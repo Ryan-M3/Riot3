@@ -347,17 +347,7 @@ I envisioned each unit as having a sort of D&D character sheet. This makes savin
 
 ###### EnemyCtrl
 
-I did a decent job in the file itself:
-    /// <summary>
-    /// While each individual unit is controlled independently
-    /// boids-style, there's still a need to control all units
-    /// in the same way that the player controls each of his.
-    /// As an example, no individual rioter can end the enemy
-    /// turn, only the EnemyCtrl can, but what each enemy does
-    /// for its turn is controlled by that RioterAI, not the
-    /// EnemyCtrl. EnemyCtrl is the imagined enemy player in
-    /// the seat and RioterAI is the unit on the board.
-    /// </summary>
+While each individual unit is controlled independently boids-style, there's still a need to control all units in the same way that the player controls each of his. As an example, no individual rioter can end the enemy turn, only the EnemyCtrl can, but what each enemy does for its turn is controlled by that RioterAI, not the EnemyCtrl. EnemyCtrl is the imagined enemy player in the seat and RioterAI is the unit on the board.
 
 ###### GettingArrestedStatus
 
