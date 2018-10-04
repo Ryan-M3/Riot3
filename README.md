@@ -107,3 +107,68 @@ A 4-dimensional vector composed of integers.
 #### VectorField
 
 At it's core it's just a matrix of vectors. However, it's used to model crowd behavior as a fluid flow. So it also includes FieldVisualizer to display in the Unity editor/engine a bunch of arrows in the scene indicating where a crowd wants to go. It also lets you smooth a vector field, to add or subtract a vector field to it, all sort of fun stuff like that.
+
+## Dev Tools
+
+#### Cracks
+
+I didn't actually finish this one, but I did prototype it in Haskell elsewhere and found it to be lacking. It was going to procedurally generate cracks.
+
+#### Edit Mode Ctrl
+
+Junk file. I must have missed it when I uploaded this project to github. Sorry!
+
+#### Procedural Fire
+
+I was unsatisfied with standard implementations of fire in games that used particle effects. Instead I actually wrote a script that manipulated the points on the mesh (the tris) itself. Then I added some flickering and layerinig. I thought it came out pretty well all things considered and fit with the art style.
+
+## Editor
+
+This is a special file used in Unity that modifies the behavior of the Unity Editor. These are basically workflow enhancements and honestly aren't very important or interesting.
+
+## Global State Adaptors
+
+This folder is kind of a mish-mash of design patterns.
+
+First, let's talk about the concept of a Modal Object. This evolved out of a frustration using C#s event system. Generally the code didn't look very pretty, it was spread across a bunch of different functions, and I had to explicitly think about what other objects are doing, while making it annoying to modify and refactor. "Global state" is a four-letter word in programming, but that's the true, underlying reality of the game. There is indeed a state and objects and code need to react to that state. So I took inspiration from my favorite text editor, Vim, and decided that the game needed to have "modes" and the player would switch between modes. I then implemented this in a way that would be familiar to anyone who codes with Unity: just like how a MonoBehaviour has it's own Update function, FixedUpdate, and late Update which do the same thing, but have different properties, I would have various Modal Updates. These are updates that are only active when the game is in that mode.
+
+Any object which might behave differently in different game modes (which happen to be Deploy Troops, Player Turn, Enemy Turn, Paused, and Level Over), inherits from the ModalObject class which allows that object to override methods that are called each update in each game mode, the first time you enter that game mode, and when you exit that game mode.
+
+I found this so grreatly simplified and cleaned up my code, I created a "ViewModalObject" class which is an extension of game state into UI state. So a player might select a unit to move and then click "move" which triggers an event setting the ViewMode to "moving." Various UI behaviors, such as path-finding and highlighting then start updating. For instance, a line must be drawn from the player to the mouse. The code for drawing this line is contained in the "MoveUpdate" method and it is automatically turned on and off as needed.
+
+This allows me to write lots of behaviors in a decentralized way. If I need a script to control changing the lights on a traffic light, all I have to do is inherit from ViewModalObject and put the relevant code under the correct Update function.
+
+This folder also contains the basics of a Model-view-Control architecture. I found it useful to segregate code representing the underyling state of the game with how it's presented to the user. What's notable is that I used the Command design pattern for the Control division of the code. This allows players to undo actions. But when combined with MVC it meant that I could do things like make all the rioters do their turn at the same time, and let the code for animating and physically moving them on the board do it's own thing independently. Not only does this mean the player doesn't have to sit and watch each rioter go through their own motions (which can be an issue if you want 100 rioters), but by moving at once it looks much more like a crowd.
+
+## Materials
+
+Materials are Unity assets that encapsulate the textures, shaders, colors, and other settings used for an object. I followed a somewhat strange naming convention. I made a script that prepended each material with three numbers between 0 and 8 representing the hue, saturation, and luminance of the color of each material. This way, if you sort by name in the editor colors that are similar to each other are actually near each other and you can just scroll down to the navy blue materials and pick one.
+
+## Misc
+
+Things that don't fit anywhere else and don't even seem to be very important or interesting.
+
+## Not My Code
+
+Things I didn't write and wanted to make sure I didn't claim I wrote. Sometimes you just don't feel like implementing everything, even in a project meant to demonstrate that you know how to program.
+
+#### Catenary
+
+I started out trying to make this on my own, but then when people started talking about transcendental numbers and writing custom meshes (which I later learned how to do to write procedural fire), I just grabbed a library from github.
+
+#### Gaussian Number
+
+All I did was translated some C++ code on wikipedia into some C# code. I don't really understand why it works, I just want a normally distributed number sometimes.
+
+#### PriorityQueues
+
+Grabbed off of github.
+
+#### Shuffle
+
+Shuffles an array. It's short and simple, but I did steal it from a stackoverflow answer.
+
+#### Singleton
+
+The implementation is slightly different when you're using Unity's MonoBehaviours rather than just straight C# code.
+
