@@ -70,3 +70,40 @@ Default police and rioter units.
 #### Wave Collapse
 
 Inspired by a "wave collapse" algorithm for procedural, the implementation should probably be called "Constraint-Based Stochastic Clothing Generation," but that's too long of a name. Basically, I wanted to create randomly-generated rioters. However, I also wanted to be able to list rules about what makes a good selection of mesh presets. The rules for generating plausible outfits are found in Wave Collapse/Constraints and have self-explanatory names ("Men Wear Men's Clothes.asset" is a rule that says if any equipped piece of clothing is marked as "male only," then no other article of clothing may be marked as "female only."). I was surprised how well just a few rules wound up creating reasonable-looking NPCs.
+
+## Data Structures
+
+Contains very simple, general data structures used throughout the project.
+
+#### Edges
+An edge is a struct containing two points.
+
+#### KDTree
+
+A k-Dimensional Tree. Also contains a "PtTree" which is just a special case of a KDTree that uses my Point class, specifically for returning and working with grid coordinates. Mostly used so I can do nearest-neighbor search to find nearby board pieces. That is, so I write code that does something like "if there is a weapon within 2 tiles of the rioter, have the rioter pick it up with a probability of 10%."
+
+#### Object Pooling
+
+This bit of code really isn't in this particular iteration of the project. In a prior version of the game, it was real-time and there could be many objects being spawned at once, especially sound files. Additionally, the board was loaded in pieces. But basically what it does is it instantiates objects over time, then hides them. Rather than create the object when needed, a "Swimmer" (an object which wants to use an object pool) borrows that object rather than instatiate it, then "returns" it instead of destroys it. That object must have the "Poolable" script attached to it. Additionally, the rate at which various object pools  instatiate their poolable object behind the scenes is called the "WaterPark" (because it's a collection of pools).
+
+This was important when there were a lot of sound effects because the sound effect has a spatial location which it will occupy. So if you have 10 characters in the scene and each one has their own footstep sound, you can easily wind up having to instantiate a dozens of footstep sounds into the scene every second. With object pooling, I was able to cycle through just three or four and mostly just moving them and replaying the audio.
+
+#### ProbabilityQueue
+
+This is apparently called the Roulette Algorithm and apparently everyone implements it incorrectly. The idea is to draw an item from a list of items such that 30% of the time you get item A, 20% of the time you get item B, etc. Most people create an array of cumulative probabilities, generatte a random number, then iterate through that array until they find the appropriate probability, then use the index of that probability to map back to the item they should return. A naive implementation is O(n) or O(log n), whereas the implementation I used is supposedly O(1). Honestly, it probably didn't matter performance-wise and my benchmarking indicated that you needed a lot of items in your queue for the optimized version to actually noticable outperform the naive version, but it seemed easy enough to implement and the code is re-usable, so why not?
+
+#### ReversibleDict
+
+A dictionary that's smart enough to know that if you're mapping, say, an integer to a string then myDict[myInt] should return the associated string and myDict[myString] should return the associated integer.
+
+#### SparseMatrix
+
+A matrix implemented with a dictionary that assumes any values not in that dictionary have a value of zero.
+
+#### Vector4Int
+
+A 4-dimensional vector composed of integers.
+
+#### VectorField
+
+At it's core it's just a matrix of vectors. However, it's used to model crowd behavior as a fluid flow. So it also includes FieldVisualizer to display in the Unity editor/engine a bunch of arrows in the scene indicating where a crowd wants to go. It also lets you smooth a vector field, to add or subtract a vector field to it, all sort of fun stuff like that.
