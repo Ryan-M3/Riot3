@@ -371,22 +371,44 @@ Controls the behavior or the rioters.
 
 ###### SceneLoader
 
+Extremely simple script that loads a scene by index.
+
 ###### Unit
+
+All the logic involved in interacting with a police officer or rioter that isn't encapsulated in a command executed by the command queue.
 
 #### Chimera, HQ Unit
 
+Prefabs / Unity assets for units visible during the pre-mission screen.
+
 #### Chimera, Mission Units
+
+Prefabs / Unity assets for units visible during the actual mission or level.
 
 #### Command Queue
 
+As mentioned in Globa State Adaptors, I used the command design pattern to allow commands to be undone and possibly allow for a "replay" feature found in many turn-based games like Civilization.  
+
 #### FBX - Unit Classes
+
+These files contain mesh data for character models.
 
 #### Misc
 
+Junk file (No longer has anything in it).
+
 #### Names 
+
+When a new character is created, they're given a randomly generated name. If I remember correctly, I got the names from the US census website. The names generated aren't the most realistic.
 
 #### Skin Tones
 
+Materials representing skin-tones (no code).
+
 #### StatusFx
 
+A status effect is something that is applied to a unit and modifies their character status over some period of time. It's a standard RPG trope and surprisingly extensible. I have status effects for tear gas and being on fire, but you can imagine various slowed, panicked, or confused status effects as need be.
+
 #### Unit Class Prefabs
+
+Prefabs (no code).
